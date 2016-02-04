@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Override the namespace prefix with "xsd:"
+-->
+<!DOCTYPE xsd:schema PUBLIC "-//W3C//DTD XMLSCHEMA 200010//EN" "../XMLSchema.dtd" [
+  <!ENTITY % p "xsd:">
+  <!ENTITY % s ":xsd">
+]>
+<!-- 
+  You can have the namespace declaration here, but it's value must match exactly. 
+-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2000/10/XMLSchema">
+</xsd:schema>

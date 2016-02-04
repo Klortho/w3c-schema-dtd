@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  With the 2001 version, if you want to use the default prefix of "xs:", you don't have
+  to create an internal subset to declare it.
+-->
+<!DOCTYPE xs:schema PUBLIC "-//W3C//DTD XMLSCHEMA 200102//EN" "../2001/XMLSchema.dtd">
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+</xs:schema>

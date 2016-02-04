@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xsd:schema PUBLIC "-//W3C//DTD XMLSCHEMA 200010//EN" "../XMLSchema.dtd" [
+  <!ENTITY % p "xsd:">
+  <!ENTITY % s ":xsd">
+]>
+<!-- 
+  This will fail, because we have the namespace declaration here, but it's the
+  one for the wrong DTD (2001 instead of 2000).
+-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  This will fail, because it's not using the default namespace prefix of "xs:", and 
+  it hasn't declared "xsd:".
+-->
+<!DOCTYPE xsd:schema PUBLIC "-//W3C//DTD XMLSCHEMA 200102//EN" "../2001/XMLSchema.dtd">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>

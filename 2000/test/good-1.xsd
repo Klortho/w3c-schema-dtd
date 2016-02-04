@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Use "xs:" for the namespace prefix
+-->
+<!DOCTYPE xs:schema PUBLIC "-//W3C//DTD XMLSCHEMA 200010//EN" "../XMLSchema.dtd" [
+  <!ENTITY % p "xs:">
+  <!ENTITY % s ":xs">
+]>
+<!-- 
+  You don't need to have the namespace declaration here, but if you don't, tools that 
+  don't read the DTD may choke.
+-->
+<xs:schema>
+</xs:schema>

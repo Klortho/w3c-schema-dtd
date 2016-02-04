@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Of course, you still can (and you must if you want to use a different prefix).
+-->
+<!DOCTYPE xsd:schema PUBLIC "-//W3C//DTD XMLSCHEMA 200102//EN" "../2001/XMLSchema.dtd" [
+  <!ENTITY % p "xsd:">
+  <!ENTITY % s ":xsd">
+]>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
