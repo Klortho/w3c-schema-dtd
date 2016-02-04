@@ -3,6 +3,6 @@
   "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
 
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-  <public publicId="-//W3C//DTD XMLSCHEMA 200010//EN"
-          uri="http://www.w3.org/2000/10/XMLSchema.dtd"/>
+  <public publicId="-//W3C//DTD XMLSCHEMA 200010//EN" uri="XMLSchema.dtd"/>
+  <system systemId="http://www.w3.org/2000/10/XMLSchema.dtd" uri="XMLSchema.dtd"/>
 </catalog>

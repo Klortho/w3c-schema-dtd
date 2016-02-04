@@ -3,6 +3,8 @@
   "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
 
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-  <public publicId="-//W3C//DTD XMLSCHEMA 200102//EN"
-          uri="http://www.w3.org/2001/XMLSchema.dtd"/>
+  <public publicId="-//W3C//DTD XMLSCHEMA 200102//EN" uri="XMLSchema.dtd"/>
+  <!-- Considered using rewriteSystem here, but that might clobber other catalogs/dtds
+    that use this prefix. -->
+  <system systemId="http://www.w3.org/2001/XMLSchema.dtd" uri="XMLSchema.dtd"/>
 </catalog>

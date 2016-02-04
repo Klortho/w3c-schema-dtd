@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Another test of the catalog, to make sure we can find the DTD via its system id.
+  Test with, for example, xmllint using the "nonet" option.
+-->
+<!DOCTYPE xsd:schema SYSTEM "http://www.w3.org/2000/10/XMLSchema.dtd" [
+  <!ENTITY % p "xsd:">
+  <!ENTITY % s ":xsd">
+]>
+<xsd:schema xmlns:xsd="http://www.w3.org/2000/10/XMLSchema">
+</xsd:schema>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This tests the catalog, to make sure we can find the DTD via its public id.
+-->
+<!DOCTYPE xsd:schema PUBLIC "-//W3C//DTD XMLSCHEMA 200010//EN" "foo.dtd" [
+  <!ENTITY % p "xsd:">
+  <!ENTITY % s ":xsd">
+]>
+<xsd:schema xmlns:xsd="http://www.w3.org/2000/10/XMLSchema">
+</xsd:schema>
