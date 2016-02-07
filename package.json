@@ -1,0 +1,31 @@
+{
+  "name": "w3c-schema-dtd",
+  "version": "1.0.0",
+  "description": "W3C DTD for XML Schema",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncbi/w3c-schema-dtd.git"
+  },
+  "keywords": [
+    "DTD",
+    "W3C",
+    "XSD",
+    "Schema",
+    "XML"
+  ],
+  "author": "NCBI",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/ncbi/w3c-schema-dtd/issues"
+  },
+  "homepage": "https://github.com/ncbi/w3c-schema-dtd#readme",
+  "devDependencies": {
+    "mocha-xml-validator": "^0.0.1"
+  }
+}
