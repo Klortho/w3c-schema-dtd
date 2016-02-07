@@ -1,0 +1,20 @@
+{
+  "testCases": [
+    {
+      "filename": "bad-1.xsd",
+      "expect": "invalid"
+    },
+    {
+      "filename": "good-1.xsd"
+    },
+    {
+      "filename": "good-2.xsd"
+    },
+    {
+      "filename": "good-3.xsd"
+    },
+    {
+      "filename": "good-4.xsd"
+    }
+  ]
+}
