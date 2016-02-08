@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "nxt-validate --tests=2000/test/tests.json && nxt-validate --tests=2001/test/tests.json"
+    "test": "mxv-validate --tests=2000/test/tests.json && mxv-validate --tests=2001/test/tests.json"
   },
   "repository": {
     "type": "git",
