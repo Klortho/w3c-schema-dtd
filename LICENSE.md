@@ -13,6 +13,16 @@ The DTDs in this package have been copied without modification from the W3C webs
 > When space permits, inclusion of the full text of this NOTICE should be provided. We request that authorship attribution be provided in any software, documents, or other items or products that you create pursuant to the implementation of the contents of this document, or any portion thereof.
 >
 > No right to create modifications or derivatives of W3C documents is granted pursuant to this license, except as follows: To facilitate implementation of the technical specifications set forth in this document, anyone may prepare and distribute derivative works and portions of this document in software, in supporting materials accompanying software, and in documentation of software, PROVIDED that all such works include the notice below. HOWEVER, the publication of derivative works of this document for use as a technical specification is expressly prohibited.
+>
+> In addition, "Code Components" —Web IDL in sections clearly marked as Web IDL; and W3C-defined markup (HTML, CSS, etc.) and computer programming language code clearly marked as code examples— are licensed under the [W3C Software License](http://www.w3.org/Consortium/Legal/copyright-software).
+>
+> The notice is:
+>
+> "Copyright © 2015 W3C® (MIT, ERCIM, Keio, Beihang). This software or document
+> includes material copied from or derived from "Mathematical Markup Language
+> (MathML) Version 2.0 (Second Edition) - W3C Recommendation 21 October 2003",
+> available from
+> [https://www.w3.org/TR/MathML2/](https://www.w3.org/TR/MathML2/)."
 
 
 # NCBI Public Domain notice

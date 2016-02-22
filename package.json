@@ -19,7 +19,7 @@
     "Schema",
     "XML"
   ],
-  "author": "NCBI",
+  "author": "W3C",
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
     "url": "https://github.com/ncbi/w3c-schema-dtd/issues"
