@@ -1,5 +1,5 @@
 {
-  "name": "w3c-schema-dtd",
+  "name": "@klortho/w3c-schema-dtd",
   "version": "1.0.0",
   "description": "W3C DTD for XML Schema",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ncbi/w3c-schema-dtd.git"
+    "url": "git+https://github.com/klortho/w3c-schema-dtd.git"
   },
   "keywords": [
     "DTD",
@@ -19,10 +19,10 @@
   "author": "W3C",
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
-    "url": "https://github.com/ncbi/w3c-schema-dtd/issues"
+    "url": "https://github.com/klortho/w3c-schema-dtd/issues"
   },
-  "homepage": "https://github.com/ncbi/w3c-schema-dtd#readme",
+  "homepage": "https://github.com/klortho/w3c-schema-dtd#readme",
   "devDependencies": {
-    "mocha-xml-validator": "^0.0.1"
+    "mocha-xml-validator": "^0.1.0"
   }
 }
