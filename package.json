@@ -1,13 +1,13 @@
 {
-  "name": "@klortho/w3c-schema-dtd",
+  "name": "w3c-schema-dtd",
   "version": "1.0.0",
   "description": "W3C DTD for XML Schema",
   "scripts": {
-    "test": "mxv-validate --tests=2000/test/tests.json && mxv-validate --tests=2001/test/tests.json"
+    "test": "xt-validate"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/klortho/w3c-schema-dtd.git"
+    "url": "git+https://github.com/ncbi/w3c-schema-dtd.git"
   },
   "keywords": [
     "DTD",
@@ -19,10 +19,29 @@
   "author": "W3C",
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
-    "url": "https://github.com/klortho/w3c-schema-dtd/issues"
+    "url": "https://github.com/ncbi/w3c-schema-dtd/issues"
   },
-  "homepage": "https://github.com/klortho/w3c-schema-dtd#readme",
+  "homepage": "https://github.com/ncbi/w3c-schema-dtd#readme",
   "devDependencies": {
     "mocha-xml-validator": "^0.1.0"
+  },
+  "nlm-xmltools": {
+    "project-catalog": "project-catalog.xml",
+    "schemas": [
+      {
+        "name": "w3c-schema-dtd-2000",
+        "base-dir": "2000/",
+        "base-url": "http://www.w3.org/2000/10/",
+        "test": "test/tests.json",
+        "catalog": "catalog.xml"
+      },
+      {
+        "name": "w3c-schema-dtd-2001",
+        "base-dir": "2001/",
+        "base-url": "http://www.w3.org/2001/",
+        "test": "test/tests.json",
+        "catalog": "catalog.xml"
+      }
+    ]
   }
 }
